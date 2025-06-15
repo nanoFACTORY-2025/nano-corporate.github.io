@@ -86,5 +86,4 @@
       お問い合わせ：<a href="mailto:contact@nano-factory.jp">contact@nano-factory.jp</a><br />
     </div>
   </footer>
-</body>
-</html>
+
