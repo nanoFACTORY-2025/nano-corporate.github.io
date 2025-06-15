@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
@@ -43,6 +44,22 @@
     img.logo {
       height: 32px;
     }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #ffffff;
+      margin-top: 80px;
+      font-size: 1.1em;
+    }
+    footer a {
+      color: #048AFF;
+      text-decoration: none;
+    }
+    .footer-info {
+      display: inline-block;
+      text-align: left;
+      line-height: 1.8;
+    }
   </style>
 </head>
 <body>
@@ -55,6 +72,19 @@
         <a href="#features">ホーム</a>
       </nav>
     </div>
-  </header>
+  
+
+  <div style="text-align:center; margin-top: 40px;">
+  <h2>パンフレット表示</h2>
+  <img src="https://raw.githubusercontent.com/nanoFACTORY-2025/public-assets/main/%E3%83%91%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%88%E8%A1%A8%E7%B4%99.pdf" alt="パンフレット画像" style="max-width:90%; height:auto; border:1px solid #ccc;">
+</div>
+
+  <footer>
+    <div class="footer-info">
+      代表取締役：本多恭明<br />
+      所在地　　：東京都港区南青山５丁目１１番１４号 Ｈ＆Ｍ南青山Ｅ３０８号室<br />
+      お問い合わせ：<a href="mailto:contact@nano-factory.jp">contact@nano-factory.jp</a><br />
+    </div>
+  </footer>
 </body>
 </html>
